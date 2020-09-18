@@ -1,0 +1,12 @@
+.header img{
+    
+}
+.header{
+    text-align: left;
+}
+.header nav{
+    background-color: rgb(223, 108, 13);
+    
+    line-height: 60px;
+    font-size: 20px;
+}
