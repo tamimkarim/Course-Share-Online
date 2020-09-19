@@ -4,7 +4,7 @@ import Product from '../Product/Product';
 import './Courses.css';
 
 const Courses = () => {
-    const first18 = fakeData.slice(0,18);
+    const first18 = fakeData.slice(0,20);
     const[courses, setCourses] = useState(first18);
 
     //console.log(fakeData);  

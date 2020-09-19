@@ -9,6 +9,8 @@ const courses = [
         "star": 4.5,
         "bestSeller": true,
         "last_update": 5,
+        "starCount": 57842,
+
         "enrolled": 11955
     },
     {
@@ -21,6 +23,8 @@ const courses = [
         "star": 4.2,
         "bestSeller": true,
         "last_update": 2,
+        "starCount": 57842,
+
         "enrolled": 16650
     },
     {
@@ -33,18 +37,22 @@ const courses = [
         "star": 3.9,
         "bestSeller": true,
         "last_update": 8,
+        "starCount": 57842,
+
         "enrolled": 1797
     },
     {
         "id": 4,
         "name": "AWS Certification Cloud",
-        "instructor": "Md. Tamim Karim",
+        "instructor": "Tamim Karim",
         "img": "https://i.imgur.com/BcWjy2F.jpg",
         "price": 13.95,
         "category": ["AWS", "Cloud Hosting", " DevOps"],
         "star": 4.8,
         "bestSeller": true,
         "last_update": 9,
+        "starCount": 57842,
+
         "enrolled": 19546
     },
     {
@@ -57,6 +65,8 @@ const courses = [
         "star": 4.7,
         "bestSeller": true,
         "last_update": 11,
+        "starCount": 57842,
+
         "enrolled": 10054
     },
     {
@@ -69,6 +79,8 @@ const courses = [
         "star": 4.9,
         "bestSeller": true,
         "last_update": 1,
+        "starCount": 57842,
+
         "enrolled": 1587
     },
     {
@@ -80,6 +92,8 @@ const courses = [
         "category": ["Web design", " Front End"],
         "star": 4.2,
         "bestSeller": true,
+        "starCount": 57842,
+
         "last_update": 9,
         "enrolled": 114742
     },
@@ -93,6 +107,8 @@ const courses = [
         "star": 4.9,
         "bestSeller": true,
         "last_update": 7,
+        "starCount": 57842,
+
         "enrolled": 95466
     },
     {
@@ -105,6 +121,8 @@ const courses = [
         "star": 4.7,
         "bestSeller": true,
         "last_update": 29,
+        "starCount": 57842,
+
         "enrolled": 152121
     },
     {
@@ -117,6 +135,8 @@ const courses = [
         "star": 4.9,
         "bestSeller": true,
         "last_update": 5,
+        "starCount": 57842,
+
         "enrolled": 1541950
     },
     {
@@ -129,6 +149,8 @@ const courses = [
         "star": 4.6,
         "bestSeller": true,
         "last_update": 25,
+        "starCount": 57842,
+
         "enrolled": 11213
     },
     {
@@ -141,6 +163,7 @@ const courses = [
         "star": 4.6,
         "bestSeller": true,
         "last_update": 45,
+        "starCount": 57842,
         "enrolled": 1355155
     },
     {
@@ -153,6 +176,7 @@ const courses = [
         "star": 4.6,
         "bestSeller": true,
         "last_update": 50,
+        "starCount": 57842,
         "enrolled": 11950
     },
     {
@@ -165,6 +189,7 @@ const courses = [
         "star": 4.6,
         "bestSeller": true,
         "last_update": 15,
+        "starCount": 57892,
         "enrolled": 11950
     },
     {
@@ -177,6 +202,7 @@ const courses = [
         "star": 5,
         "bestSeller": true,
         "last_update": 36,
+        "starCount": 57892,
         "enrolled": 1194212
     },
     {
@@ -189,6 +215,7 @@ const courses = [
         "star": 4.6,
         "bestSeller": true,
         "last_update": 12,
+        "starCount": 57892,
         "enrolled": 11950
     },
     {
@@ -201,6 +228,7 @@ const courses = [
         "star": 4.6,
         "bestSeller": true,
         "last_update": 5,
+        "starCount": 57892,
         "enrolled": 11135
     },
     {
@@ -213,6 +241,7 @@ const courses = [
         "star": 4.6,
         "bestSeller": true,
         "last_update": 7,
+        "starCount": 57892,
         "enrolled": 11950
     },
     {
@@ -225,6 +254,7 @@ const courses = [
         "star": 4.6,
         "bestSeller": true,
         "last_update": 50,
+        "starCount": 57892,
         "enrolled": 119232
     },
     {
@@ -237,7 +267,9 @@ const courses = [
         "star": 4.6,
         "bestSeller": true,
         "last_update": 15,
+        "starCount": 57892,
         "enrolled": 11950
+        
     },
     {
         "id": 21,

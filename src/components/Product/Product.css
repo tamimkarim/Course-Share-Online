@@ -2,3 +2,20 @@
     font-size: 30px;
     margin-bottom: 29px;
 }
+.name{
+    color: darkblue;
+}
+.align{
+    text-align: left;
+}
+.price{
+    color: #be5a0e ;
+    
+}
+.button:hover{
+    background-color: #343a40!important;
+}
+.background{
+    
+    box-shadow: 3px solid lightcyan;
+}

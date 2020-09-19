@@ -6,7 +6,7 @@ import Courses from './components/Courses/Courses';
 
 function App() {
   return (
-    <div>
+    <div >
      <Header></Header>
      <Courses></Courses>
     </div>
