@@ -1,21 +1,22 @@
 import React, { useState } from 'react';
 import fakeData from '../../fakeData/fakeData';
+import Product from '../Product/Product';
 import './Courses.css';
 
 const Courses = () => {
-    const first10 = fakeData.slice(0,10);
-    const[courses, setCourses] = useState(first10);
+    const first18 = fakeData.slice(0,18);
+    const[courses, setCourses] = useState(first18);
 
     //console.log(fakeData);  
     return (
         <div className="courses-container container-fluid" >
            {/* <h3>{courses.length}</h3> */}
            <div className="product-container  container-fluid">
-           <ul>
-                {
-                    courses.map(courses => <li>{courses.name}</li> )
-                }
-            </ul>
+           
+            {
+                courses.map(pd => <Product product={pd}></Product> )
+            }
+            
            </div>
            <div className="cart-container  ">
                <h3>This is Cart</h3>
