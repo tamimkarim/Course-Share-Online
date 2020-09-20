@@ -1,16 +1,17 @@
 const courses = [
     {
         "id": 1,
-        "name": "Graphic Design For Beginners",
-        "instructor": "Joseph Phillips",
-        "img": "https://i.imgur.com/NgIAaIy.jpg",
-        "price": 9.99,
-        "category": ["Web design",  " Web Development"],
-        "star": 4.6,
+        "name": "3D Animation With Game Development",
+        "instructor": "PewDiPie",
+        "img": "https://i.imgur.com/2FkYKU9.jpg",
+        "price": 10.99,
+        "category": ["Design", " Animation", " Game"],
+        "star": 4.5,
         "bestSeller": true,
         "last_update": 5,
-        "starCount": 57892,
-        "enrolled": 11135
+        "starCount": 57842,
+
+        "enrolled": 11955
     },
     {
         "id": 2,
@@ -219,17 +220,16 @@ const courses = [
     },
     {
         "id": 17,
-        "name": "3D Animation With Game Development",
-        "instructor": "PewDiPie",
-        "img": "https://i.imgur.com/2FkYKU9.jpg",
-        "price": 10.99,
-        "category": ["Design", " Animation", " Game"],
-        "star": 4.5,
+        "name": "Graphic Design For Beginners",
+        "instructor": "Joseph Phillips",
+        "img": "https://i.imgur.com/NgIAaIy.jpg",
+        "price": 9.99,
+        "category": ["Web design",  " Web Development"],
+        "star": 4.6,
         "bestSeller": true,
         "last_update": 5,
-        "starCount": 57842,
-        "enrolled": 11955
-
+        "starCount": 57892,
+        "enrolled": 11135
     },
     {
         "id": 18,

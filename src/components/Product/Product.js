@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGraduationCap, faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons'
 
 const Product = (props) => {
-    console.log(props);
+   
     const { name,img,instructor, price, star, enrolled, last_update,starCount } = (props.product);
     return (
         <div className="product"> <h4></h4>
