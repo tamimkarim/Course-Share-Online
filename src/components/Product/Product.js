@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGraduationCap, faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons'
 
 const Product = (props) => {
-    console.log(props.product);
+    console.log(props);
     const { name,img,instructor, price, star, enrolled, last_update,starCount } = (props.product);
     return (
         <div className="product"> <h4></h4>
@@ -21,7 +21,9 @@ const Product = (props) => {
                             <p><small>Enrolled: {enrolled} </small></p>
                             <p>{star} <FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} />
                             <FontAwesomeIcon icon={faStarHalfAlt} />({starCount})</p>
-                            <Button className="button" variant="outline-info"><FontAwesomeIcon icon={faGraduationCap} /> Enroll Now</Button>{' '}
+                            <Button 
+                            onClick={ () => props.handleAddProduct(props.product)}
+                            className="button" variant="outline-info"><FontAwesomeIcon icon={faGraduationCap} /> Enroll Now</Button>{' '}
                             
                         </Card.Text>
                     </Card.Body>

@@ -4,22 +4,32 @@ import Product from '../Product/Product';
 import './Courses.css';
 
 const Courses = () => {
-    const first18 = fakeData.slice(0,20);
-    const[courses, setCourses] = useState(first18);
+    const first20 = fakeData.slice(0,20);
+    const[courses, setCourses] = useState(first20);
+    const [cart, setCart] =useState([]);
 
-    //console.log(fakeData);  
+    const handleAddProduct = (product) => {
+        console.log('Product added', product);
+        const newCart = [...cart, product];
+        setCart(newCart);
+    }
+
     return (
         <div className="courses-container container-fluid" >
            {/* <h3>{courses.length}</h3> */}
            <div className="product-container  container-fluid">
            
             {
-                courses.map(pd => <Product product={pd}></Product> )
+                courses.map(pd => <Product
+                    handleAddProduct ={handleAddProduct}
+                    product={pd}
+                    ></Product> )
             }
             
            </div>
            <div className="cart-container  ">
-               <h3>This is Cart</h3>
+               
+               <h5>Added to cart:{cart.length} </h5>
            </div>
             
 
