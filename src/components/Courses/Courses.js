@@ -17,9 +17,9 @@ const Courses = () => {
     }
 
     return (
-        <div className="courses-container container-fluid" >
+        <div className="courses-container container-fluid cart" >
             {/* <h3>{courses.length}</h3> */}
-            <div className="product-container  container-fluid">
+            <div className="product-container  container-fluid  col-md-8">
 
                 {
                     courses.map(pd => <Product
@@ -29,13 +29,17 @@ const Courses = () => {
                 }
 
             </div>
-            <div className="cart-container  ">
+            <div className="cart-container col-md-4  ">
 
-               <Cart cart ={cart}>
+               <Cart  cart ={cart}>
 
                </Cart>
                 
             </div>
+            
+           
+
+
 
 
 

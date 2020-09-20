@@ -5,8 +5,8 @@ import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
 
 const Header = () => {
     return (
-        <div className ="header">
-            <Navbar bg="dark" variant="dark">
+        <div className ="header fixed-top">
+            <Navbar bg="dark" variant="dark ">
                 <Navbar.Brand href="#course-share-online">CSO</Navbar.Brand>
                 <Nav className="mr-auto">
                 <Nav.Link href="#home">Home</Nav.Link>

@@ -9,6 +9,9 @@ function App() {
     <div >
      <Header></Header>
      <Courses></Courses>
+     <footer className="center">
+            <small>©course-share-online by Tamim Karim. All rights reserved.</small>
+      </footer>
     </div>
   );
 }

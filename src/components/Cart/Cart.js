@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Card, Nav } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faShoppingCart} from '@fortawesome/free-solid-svg-icons'
+import { faShoppingCart, faClipboardCheck} from '@fortawesome/free-solid-svg-icons'
 import './Cart.css';
 
 const Cart = (props) => {
@@ -9,14 +9,16 @@ const Cart = (props) => {
     let total = 0;
     for (let i = 0; i < cart.length; i++) {
         const product = cart[i];
-        total = total + product.price;
+        total = (total + product.price);
 
     }
+    const vat = (total/10).toFixed(2);
+    const grandTotal = (total + Number(vat)).toFixed(2);
 
     return (
         <div>
-                <Card>
-                    <Card.Header>
+                <Card className="cart">
+                    <Card.Header >
                         <Nav variant="pills" defaultActiveKey="#first">
                             <Nav.Item>
                                 <h3>Order Summary</h3>
@@ -25,11 +27,13 @@ const Cart = (props) => {
                         </Nav>
                     </Card.Header>
                     <Card.Body>
-                        <Card.Title>Total cost: ${total} </Card.Title>
-                        <Card.Text>
-                            With supporting text below as a natural lead-in to additional content.
+                    <Card.Text>
+                           <h6> VAT: {vat}</h6>
                         </Card.Text>
-                            <Button variant="primary">Go somewhere</Button>
+                        <Card.Title>Total cost: ${grandTotal} </Card.Title>
+                        
+                        <Button 
+                            className="button" variant="outline-info"><FontAwesomeIcon icon={faClipboardCheck} /> Review Order </Button>{' '}
                     </Card.Body>
                 </Card>
         </div>
